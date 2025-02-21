@@ -345,17 +345,15 @@ label {
 /* Media Queries */
 @media (max-width: 768px) {
 
-    html, body {
-        height: max-content;
-        width: 100vw;
-    }
+   
     .main {
         height: max-content;
     }
 
     .nav_bar {
         margin-left: 5%;
-        margin-right: 20%;
+        margin-right: 5%;
+        
     }
     .footer_det {
         flex-direction: column; /* Stack footer elements vertically */
@@ -376,21 +374,20 @@ label {
     }
     
     .mainsection {
-        gap: 0%;
+        gap: 5%;
         margin-left: 5%;
         margin-right: 5%;
     }
     .projects {
         flex-direction: row; /* Stack items vertically */
-        margin-left: 5%;
-        margin-right: 5%;
+  
     }
 
     .proj_cont {
         flex: 1 1 100%; /* Full width on smaller screens */
     }
 
-    #follow_me {
+    #follow_me, #email_me {
         margin-left: 0px;
     }
     /*General */
