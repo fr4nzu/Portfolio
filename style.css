@@ -345,13 +345,17 @@ label {
 /* Media Queries */
 @media (max-width: 768px) {
 
+    html, body {
+        height: max-content;
+        width: 100vw;
+    }
     .main {
         height: max-content;
     }
 
     .nav_bar {
         margin-left: 5%;
-        margin-right: 5%;
+        margin-right: 20%;
     }
     .footer_det {
         flex-direction: column; /* Stack footer elements vertically */
@@ -378,6 +382,8 @@ label {
     }
     .projects {
         flex-direction: row; /* Stack items vertically */
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .proj_cont {
