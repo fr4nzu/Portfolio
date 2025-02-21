@@ -351,6 +351,7 @@ label {
 
     .nav_bar {
         margin-left: 5%;
+        margin-right: 5%;
     }
     .footer_det {
         flex-direction: column; /* Stack footer elements vertically */
